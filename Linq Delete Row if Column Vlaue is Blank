@@ -1,0 +1,1 @@
+DTDailyReport.AsEnumerable.Where(Function(row) Not row("Date").ToString.Equals("")).CopyToDataTable()
